@@ -37,14 +37,14 @@ int main(int argc, char* argv[])
 int add(int number1, int number2)
 {
 	//TODO implementation
-	int returnVal = number1 + number2;
-	return returnVal;
+	return 0;
 }
  
 int sub(int number1, int number2)
 {
 	//TODO implementation
-	return 0;
+	int returnVal = number1 - number2;
+	return returnVal;
 }
  
 int multi(int number1, int number2)
