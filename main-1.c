@@ -30,9 +30,8 @@ int main(int argc, char* argv[])
 	}
 	
 
-	printf("result is %d..\n", c);
-	
-	return 0;
+	printf("result is %d.\n", c);
+
 }
  
 int add(int a, int b)
