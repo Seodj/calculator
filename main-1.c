@@ -30,19 +30,17 @@ int main(int argc, char* argv[])
 	}
 	
 	printf("result is %d.\n", result);
-
 }
  
 int add(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+	return number1 + number2;
 }
  
 int sub(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+	int returnVal = number1 - number2;
+	return returnVal;
 }
  
 int multi(int number1, int number2)
