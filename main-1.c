@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 			break;
 	}
 	
-	printf("result is %d..\n", c);
+	printf("result is %d.\n", c);
 	
 	return 0;
 }
