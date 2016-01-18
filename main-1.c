@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("수식을 입력하세요: ");
+	printf("수식을 입력하세요(예 1 + 2): ");
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
@@ -30,17 +30,20 @@ int main(int argc, char* argv[])
 	}
 	
 	printf("result is %d.\n", result);
+	
+	return 0;
 }
  
 int add(int number1, int number2)
 {
-	return number1 + number2;
+	//TODO implementation
+	return 0;
 }
  
 int sub(int number1, int number2)
 {
-	int returnVal = number1 - number2;
-	return returnVal;
+	//TODO implementation
+	return 0;
 }
  
 int multi(int number1, int number2)
